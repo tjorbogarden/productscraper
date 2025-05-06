@@ -21,6 +21,10 @@ URLS_TO_MONITOR = [
         "url": "https://www.rajalaproshop.se/swap-it/begagnade-kameror/begagnade-leica-kameror",
         "keyword": "moms"
     },
+    {
+        "url": "https://www.rajalaproshop.se/swap-it/begagnade-objektiv/begagnade-sony-objektiv?manufacturer%5B%5D=Sony&lensmounting%5B%5D=Sony%2520FE&p=1&product_list_order=relevance",
+        "keyword": "moms"
+    },
     # Lägg till fler sidor + nyckelord här vid behov
 ]
 
