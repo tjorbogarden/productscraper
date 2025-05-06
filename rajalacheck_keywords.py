@@ -11,8 +11,8 @@ import time
 IMESSAGE_RECIPIENT = "0708944644"
 
 # Var loggfilen och "sett tidigare"-filer sparas
-LOG_FILE = os.path.expanduser("~/rajalacheck_log.txt")
-SEEN_DIR = os.path.expanduser("~/.rajalacheck_seen")
+LOG_FILE = os.path.expanduser("~/productscraper/rajalacheck_log.txt")
+SEEN_DIR = os.path.expanduser("~/productscraper/.rajalacheck_seen")
 os.makedirs(SEEN_DIR, exist_ok=True)
 
 # 🔍 Lista på sidor + nyckelord att övervaka
