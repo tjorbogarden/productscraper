@@ -121,8 +121,10 @@ def check_site(entry):
 
 # ▶ Huvudfunktion
 def main():
+    log("🚀 Scriptet startade")
     for entry in URLS_TO_MONITOR:
         check_site(entry)
+    log("✅ Scriptet klart\n")
 
 if __name__ == "__main__":
     main()
